@@ -64,10 +64,10 @@ public class BookingController {
 	@PostMapping("SaveAllRecords")
 	public Iterable<Ticket> saveAll(){
 		ArrayList<Ticket> al=new ArrayList<>();
-		al.add(new Ticket(101,"sunil","something@gmail.com","Amadalavalsa","Hyderabad"));
-		al.add(new Ticket(102,"sunil","something@gmail.com","Amadalavalsa","Hyderabad"));
-		al.add(new Ticket(103,"sunil","something@gmail.com","Amadalavalsa","Hyderabad"));
-		al.add(new Ticket(104,"sunil","something@gmail.com","Amadalavalsa","Hyderabad"));
+		al.add(new Ticket(101,"brahmasri","something@gmail.com","Amadalavalsa","Hyderabad"));
+		al.add(new Ticket(102,"brahmasri","something@gmail.com","Amadalavalsa","Hyderabad"));
+		al.add(new Ticket(103,"brahmasri","something@gmail.com","Amadalavalsa","Hyderabad"));
+		al.add(new Ticket(104,"brahmasri","something@gmail.com","Amadalavalsa","Hyderabad"));
 		return bookingService.saveALL(al);
 		
 	}

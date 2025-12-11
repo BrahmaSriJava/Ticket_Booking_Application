@@ -4,6 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
+//Table(name="TicketBook")  Optional 
 public class Ticket {
 	
 	@Id

@@ -40,7 +40,7 @@ public class BookingService {
 	
 	public Iterable<Ticket> getAll(){
 		return bookingrepo.findAll();
-		//return null;	
+		  //return null;	
 	}
 	
 	public Iterable<Ticket> findAllByIdss(ArrayList<Integer> al){
